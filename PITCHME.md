@@ -112,6 +112,8 @@ Hejsan
 @[1-2]
 @[1-4]
 
+---
+
 #### Programmet "multiplicera input med 2."
 ```python
 line = input()
