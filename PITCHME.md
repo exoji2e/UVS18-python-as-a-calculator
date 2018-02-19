@@ -12,7 +12,7 @@
 
 ---
 
-### Det mesta fungerar som förväntat
+Det mesta fungerar som förväntat
 
 #### Skriv ut text från ditt program:
 ```python
@@ -20,11 +20,11 @@
 10
 ```
 @[1]
-@[2]
+@[1-2]
 
 ---
 
-### Det mesta fungerar som förväntat
+Det mesta fungerar som förväntat
 
 #### Matematiska operatorer:
 ```python
@@ -42,10 +42,11 @@
 81
 ```
 @[1-2]
-@[3-4]
-@[5-6]
-@[7-8]
-@[9-10]
+@[1-4]
+@[1-6]
+@[1-8]
+@[1-10]
+@[1-12]
 
 ---
 
@@ -58,8 +59,8 @@
 15
 ```
 @[1]
-@[2]
-@[3-4]
+@[1-2]
+@[1-4]
 
 ---
 
@@ -67,7 +68,8 @@
 
 #### Programmet "multiplicera input med 2."
 ```python
-x = int(input())
+line = input()
+x = int(line)
 print(2*x)
 ```
 @[1-2]
@@ -80,8 +82,18 @@ Vi kan modifera vad vårt program för genom att ge det olika input.
 
 ### Input och Output
 
+#### Exekvering av programmet
 
 ```python
-x = int(input())
-print(2*x)
+>>> line = input()
+3
+>>> x = int(line)
+>>> print(2*x)
+6
 ```
+@[1]
+@[1-2]
+@[1-3]
+@[1-5]
+
+
