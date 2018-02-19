@@ -1,19 +1,20 @@
 @title[Python som miniräknare]
-## Måns Magnusson UVS progläger 2018
+## Python som miniräknare
+#### Måns Magnusson UVS progläger 2018
 
 ---
 
-# Hur kör man sin pythonkod?
+#### Hur kör man sin pythonkod?
 
 - python i terminalen
-- (repl.it)[http://repl.it]
+- [repl.it](http://repl.it)
 - I en IDE (pycharm eller IDLE)
 
 ---
 
-# Det mesta fungerar som förväntat
+### Det mesta fungerar som förväntat
 
-## Skriv ut text från ditt program:
+#### Skriv ut text från ditt program:
 ```python
 >>> print(10)
 10
@@ -23,9 +24,9 @@
 
 ---
 
-# Det mesta fungerar som förväntat
+### Det mesta fungerar som förväntat
 
-## Matematiska operatorer:
+#### Matematiska operatorer:
 ```python
 >>> print(1 + 2)
 3
@@ -48,9 +49,8 @@
 
 ---
 
-# Vi kan skapa variabler
+#### Vi kan skapa variabler
 
-**Program**
 ```python
 >>> x = 10
 >>> y = 5
@@ -63,9 +63,9 @@
 
 ---
 
-# Input och Output
+### Input och Output
 
-## Programmet "multiplicera input med 2."
+#### Programmet "multiplicera input med 2."
 ```python
 x = int(input())
 print(2*x)
@@ -78,7 +78,7 @@ Vi kan modifera vad vårt program för genom att ge det olika input.
 
 ---
 
-# Input och Output
+### Input och Output
 
 
 ```python
