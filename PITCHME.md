@@ -138,4 +138,13 @@ print(2*x)
 @[1-3]
 @[1-5]
 
+---
+
+### Skriv ett program i python3 på [repl.it](http://repl.it):
+- som läser in två tal och:
+    + skriver ut deras summa
+    + skriver ut deras skillnad
+    + skriver ut deras produkt
+    + skriver ut deras kvot
+
 
