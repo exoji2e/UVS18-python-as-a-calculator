@@ -1,31 +1,57 @@
 @title[Python som miniräknare]
-## Måns Magnusson UVS progläger 2018
+## Python som miniräknare
+#### Måns Magnusson UVS progläger 2018
 
 ---
 
-# Hur kör man sin pythonkod?
+#### Hur kör man sin pythonkod?
 
 - python i terminalen
-- (repl.it)[http://repl.it]
+- [repl.it](http://repl.it)
 - I en IDE (pycharm eller IDLE)
 
 ---
 
-# Det mesta fungerar som förväntat
+Det mesta fungerar som förväntat
 
-## Skriv ut text från ditt program:
+### Skriv ut text och tal från ditt program:
 ```python
+>>> print("hejsan")
+hejsan
+>>> print("10")
+10
 >>> print(10)
 10
 ```
 @[1]
-@[2]
+@[1-2]
+@[1-4]
+@[1-6]
 
 ---
 
-# Det mesta fungerar som förväntat
+Men vissa saker kan vara lite förvirrande
 
-## Matematiska operatorer:
+### Text och tal fungerar olika
+```python
+>>> print(1 + 1)
+2
+>>> print("hejsan" + "hoppsan")
+hejsanhoppsan
+>>> print("1" + "1")
+11
+```
+@[1-2]
+@[1-3]
+@[1-4]
+@[1-5]
+@[1-6]
+
+---
+
+Det mesta fungerar som förväntat
+
+### Matematiska operatorer:
 ```python
 >>> print(1 + 2)
 3
@@ -41,16 +67,16 @@
 81
 ```
 @[1-2]
-@[3-4]
-@[5-6]
-@[7-8]
-@[9-10]
+@[1-4]
+@[1-6]
+@[1-8]
+@[1-10]
+@[1-12]
 
 ---
 
-# Vi kan skapa variabler
+### Vi kan skapa variabler
 
-**Program**
 ```python
 >>> x = 10
 >>> y = 5
@@ -58,30 +84,67 @@
 15
 ```
 @[1]
-@[2]
-@[3-4]
-
----
-
-# Input och Output
-
-## Programmet "multiplicera input med 2."
-```python
-x = int(input())
-print(2*x)
-```
 @[1-2]
-<!--
-Vi vill typiskt inte räkna ut exakt samma sak varje gång vi kör vårt program.
-Vi kan modifera vad vårt program för genom att ge det olika input.
--->
+@[1-4]
 
 ---
 
-# Input och Output
+### Input och Output
 
+---
 
+### Programmet "eko"
 ```python
-x = int(input())
+line = input()
+print(line)
+```
+
+---
+
+### Exekvering av eko
+```python
+>>> line = input()
+Hejsan
+>>> print(line)
+Hejsan
+```
+@[1]
+@[1-2]
+@[1-4]
+
+---
+
+#### Programmet "multiplicera input med 2."
+```python
+line = input()
+x = int(line)
 print(2*x)
 ```
+
+---
+
+
+#### Exekvera multiplicera med 2
+
+```python
+>>> line = input()
+3
+>>> x = int(line)
+>>> print(2*x)
+6
+```
+@[1]
+@[1-2]
+@[1-3]
+@[1-5]
+
+---
+
+### Skriv ett program i python3 på [repl.it](http://repl.it):
+- som läser in två tal och:
+    + skriver ut deras summa
+    + skriver ut deras skillnad
+    + skriver ut deras produkt
+    + skriver ut deras kvot
+
+
